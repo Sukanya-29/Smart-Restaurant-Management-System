@@ -8,12 +8,11 @@
 
 ## 👥 Team Details
 
-* **Team Name:** [Insert Team Name]
-* **Team Lead:** [Insert Team Lead Name]
+* **Team Name:** Sukanya
+* **Team Lead:** Sukanya
 * **Team Members:** 
-  * [Member 1 Name]
-  * [Member 2 Name]
-  * [Member 3 Name]
+  * Smridhi Kaur
+  * Balpreet Kaur
 
 ---
 
@@ -61,42 +60,44 @@ git clone [https://github.com/Sukanya-29/Smart-Restaurant-Management-System.git]
 cd Smart-Restaurant-Management-System
 
 ### Step 2: Database & Storage Setup (Supabase)
-Create a new project on Supabase.
+1. Create a new project on Supabase.
 
-Navigate to the SQL Editor in your Supabase dashboard, open your project's supabase.sql file, copy its code, paste it directly into the Supabase SQL editor, and run it to set up all necessary tables and database relations.
+2. Navigate to the SQL Editor in your Supabase dashboard, open your project's supabase.sql file, copy its code, paste it directly into the Supabase SQL editor, and run it to set up all necessary tables and database relations.
 
-Go to the Storage section in Supabase, create a storage bucket, and upload all the asset images from the project's public folder onto the Supabase cloud so they load seamlessly across the application.
+3. Go to the Storage section in Supabase, create a storage bucket, and upload all the asset images from the project's public folder onto the Supabase cloud so they load seamlessly across the application.
 
-Keep your Supabase API keys and project URL ready.
+4. Keep your Supabase API keys and project URL ready.
 
 ### Step 3: Running the Project (Using Two Split Terminals)
 To run VibeBite successfully, you will need to open two separate terminal windows/splits—one for the backend server and one for the frontend client.
 
-🖥️ Terminal 1: Backend Setup & Execution
+### 🖥️ Terminal 1: Backend Setup & Execution
 Navigate to the backend directory:
 
 cd app
 (Recommended) Create and activate a Python virtual environment to manage dependencies cleanly:
 
 python -m venv venv
-# On Windows:
+### On Windows:
 venv\Scripts\activate
-# On macOS/Linux:
+### On macOS/Linux:
 source venv/bin/activate
-Install all required dependencies based on the requirements list:
-
+<br>
+1. Install all required dependencies based on the requirements list:
 
 pip install -r requirements.txt
-Start the FastAPI backend server:
-
+<br>
+2. Start the FastAPI backend server:
 
 uvicorn main:app --reload
-🌐 Terminal 2: Frontend Setup & Execution
-Open a second split terminal and navigate to the frontend directory:
+
+### 🌐 Terminal 2: Frontend Setup & Execution
+1. Open a second split terminal and navigate to the frontend directory:
 cd frontend
-
-Install the required Node packages:
+<br>
+2. Install the required Node packages:
 npm install
-
-Run the Next.js development server:
+<br>
+3. Run the Next.js development server:
 npm run dev
+<br>
