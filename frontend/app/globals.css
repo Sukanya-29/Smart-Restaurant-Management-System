@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+html,
+body{
+    margin:0;
+    padding:0;
+    background:#FDF8F2;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+button{
+    cursor:pointer;
+    transition:.25s;
+}
+
+button:hover{
+    transform:translateY(-2px);
+}
