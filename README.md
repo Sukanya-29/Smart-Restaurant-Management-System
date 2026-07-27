@@ -82,21 +82,17 @@ python -m venv venv
 ### On Windows:
 venv\Scripts\activate
 ### On macOS/Linux:
+
 source venv/bin/activate
-<br>
-1. Install all required dependencies based on the requirements list:
+<br>1. Install all required dependencies based on the requirements list:
 pip install -r requirements.txt
-<br>
-2. Start the FastAPI backend server:
+<br>2. Start the FastAPI backend server:
 uvicorn main:app --reload
 
 ### 🌐 Terminal 2: Frontend Setup & Execution
 1. Open a second split terminal and navigate to the frontend directory:
-cd frontend
-<br>
+cd frontend<br>
 2. Install the required Node packages:
-npm install
-<br>
+npm install<br>
 3. Run the Next.js development server:
 npm run dev
-<br>
