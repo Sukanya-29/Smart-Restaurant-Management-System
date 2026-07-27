@@ -60,6 +60,7 @@ git clone [https://github.com/Sukanya-29/Smart-Restaurant-Management-System.git]
 cd Smart-Restaurant-Management-System
 
 ### Step 2: Database & Storage Setup (Supabase)
+
 1. Create a new project on Supabase.
 
 2. Navigate to the SQL Editor in your Supabase dashboard, open your project's supabase.sql file, copy its code, paste it directly into the Supabase SQL editor, and run it to set up all necessary tables and database relations.
@@ -84,11 +85,9 @@ venv\Scripts\activate
 source venv/bin/activate
 <br>
 1. Install all required dependencies based on the requirements list:
-
 pip install -r requirements.txt
 <br>
 2. Start the FastAPI backend server:
-
 uvicorn main:app --reload
 
 ### 🌐 Terminal 2: Frontend Setup & Execution
