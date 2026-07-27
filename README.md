@@ -2,7 +2,8 @@
 
 > **Submission for HackVibe Hackathon** 🚀
 
-<!-- [LEAVE SPACE HERE: Add your HackVibe Hackathon description, project journey, or problem statement overview here] -->
+Vibeathon 6.0 (Vibecoding Hackathon) 
+VibeAthon 6.0 is the sixth edition of NxtGenSec's flagship monthly VibeCoding Hackathon, bringing together students, developers, professionals, startup builders, and AI enthusiasts from across India to build impactful, production-ready web applications in just 72 hours.
 
 ---
 
