@@ -82,12 +82,11 @@ python -m venv venv
 ### On Windows:
 venv\Scripts\activate
 ### On macOS/Linux:
-
 source venv/bin/activate
-<br>1. Install all required dependencies based on the requirements list:
-pip install -r requirements.txt
-<br>2. Start the FastAPI backend server:
-uvicorn main:app --reload
+1. Install all required dependencies based on the requirements list:
+pip install -r requirements.txt <br>
+2. Start the FastAPI backend server:
+uvicorn main:app --reload <br>
 
 ### 🌐 Terminal 2: Frontend Setup & Execution
 1. Open a second split terminal and navigate to the frontend directory:
