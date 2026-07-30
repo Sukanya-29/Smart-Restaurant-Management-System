@@ -1,9 +1,16 @@
 # 🍽️ VibeBite: Smart Restaurant Management System
 
-> **Submission for HackVibe Hackathon** 🚀
+> 🚀 Submission for **VibeAthon 6.0 (VibeCoding Hackathon)** by **NxtGenSec**
 
-Vibeathon 6.0 (Vibecoding Hackathon) 
-VibeAthon 6.0 is the sixth edition of NxtGenSec's flagship monthly VibeCoding Hackathon, bringing together students, developers, professionals, startup builders, and AI enthusiasts from across India to build impactful, production-ready web applications in just 72 hours.
+VibeAthon 6.0 is a 72-hour hackathon that brings together students, developers, professionals, startup builders, and AI enthusiasts to build innovative, production-ready web applications.
+
+---
+
+## 🌐 Live Demo
+
+**Frontend:** `YOUR_FRONTEND_DEPLOYMENT_URL`
+
+**Backend API:** `YOUR_BACKEND_API_URL` *(Optional)*
 
 ---
 
@@ -11,7 +18,8 @@ VibeAthon 6.0 is the sixth edition of NxtGenSec's flagship monthly VibeCoding Ha
 
 * **Team Name:** Sukanya
 * **Team Lead:** Sukanya
-* **Team Members:** 
+* **Team Members:**
+
   * Smridhi Kaur
   * Balpreet Kaur
 
@@ -19,80 +27,165 @@ VibeAthon 6.0 is the sixth edition of NxtGenSec's flagship monthly VibeCoding Ha
 
 ## 🌟 About the Project
 
-**VibeBite** is a next-generation, AI-powered Smart Restaurant Management System built from the ground up to revolutionize the dining and restaurant operations experience. Designed with meticulous detail, high-performance architecture, and a gorgeous user interface, VibeBite bridges the gap between hungry customers and seamless kitchen/waitstaff execution. 
+**VibeBite** is an AI-powered Smart Restaurant Management System designed to simplify restaurant operations and enhance the dining experience. It provides role-based dashboards, real-time order tracking, an intelligent AI assistant, and seamless communication between customers, kitchen staff, waiters, and managers.
 
 ---
 
-## ✨ Unique Features
+## ✨ Features
 
-* **Dual-Portal Architecture:** 
-  * **Customer Portal:** An intuitive, lightning-fast web interface for customers to browse the menu, manage carts, call specific waitstaff, and interact with the AI assistant seamlessly.
-  * **Admin Portal:** A robust command center designed to oversee all restaurant operations.
-* **Role-Based Secure Dashboards:** 
-  * Divided into dedicated, password-protected dashboards for **Managers**, **Kitchen Staff**, and **Waiters**. 
-  * Strict authentication barriers ensure that sensitive administrative and kitchen controls are strictly secure.
-* **Restaurant-Specific AI Assistant:** 
-  * Powered by state-of-the-art LLMs, the integrated AI assistant is fine-tuned specifically for restaurant operations, guiding customers through menu choices, dietary preferences, and real-time recommendations.
-* **Real-time Order & Service Tracking:** Instant notifications between tables, kitchen inventory, and waiters to drastically cut down wait times and eliminate human error.
+* 🍽️ Digital Menu & Smart Cart
+* 🤖 Restaurant-Specific AI Assistant
+* 👨‍🍳 Role-Based Dashboards (Manager, Kitchen Staff & Waiter)
+* 📦 Real-Time Order Tracking
+* 🔔 Waiter Calling System
+* 📊 Restaurant Management Dashboard
+* 🔒 Secure Role-Based Authentication
+* ☁️ Supabase Database & Cloud Storage
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **Frontend:** Next.js, Tailwind CSS, TypeScript, Lucide Icons
-* **Backend:** FastAPI, Python, Uvicorn
-* **Database & Storage:** Supabase (PostgreSQL & Cloud Storage)
+### Frontend
+
+* Next.js
+* TypeScript
+* Tailwind CSS
+* Lucide Icons
+
+### Backend
+
+* FastAPI
+* Python
+* Uvicorn
+
+### Database & Storage
+
+* Supabase (PostgreSQL & Cloud Storage)
 
 ---
 
-## 🚀 Getting Started & Installation Guide
-
-Follow these steps to set up and run the project locally on your machine.
+## 🚀 Getting Started
 
 ### Prerequisites
-* Python (v3.9 or higher installed)
-* Node.js & npm (v18 or higher installed)
+
+Make sure you have the following installed:
+
+* Python 3.9 or above
+* Node.js 18 or above
+* npm
 * A Supabase Account
 
 ---
 
-### Step 1: Clone the Repository
-git clone [https://github.com/Sukanya-29/Smart-Restaurant-Management-System.git](https://github.com/Sukanya-29/Smart-Restaurant-Management-System.git)
+## 📥 Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Sukanya-29/Smart-Restaurant-Management-System.git
 cd Smart-Restaurant-Management-System
+```
 
-### Step 2: Database & Storage Setup (Supabase)
+---
 
-1. Create a new project on Supabase.
+### 2. Set Up Supabase
 
-2. Navigate to the SQL Editor in your Supabase dashboard, open your project's supabase.sql file, copy its code, paste it directly into the Supabase SQL editor, and run it to set up all necessary tables and database relations.
+1. Create a new project in **Supabase**.
+2. Open the **SQL Editor** and run the `supabase.sql` file to create all required database tables.
+3. Create a **Storage Bucket** and upload the assets from the project's `public` folder.
+4. Keep your **Supabase Project URL** and **API Keys** ready.
 
-3. Go to the Storage section in Supabase, create a storage bucket, and upload all the asset images from the project's public folder onto the Supabase cloud so they load seamlessly across the application.
+---
 
-4. Keep your Supabase API keys and project URL ready.
+## ▶️ Run the Project
 
-### Step 3: Running the Project (Using Two Split Terminals)
-To run VibeBite successfully, you will need to open two separate terminal windows/splits—one for the backend server and one for the frontend client.
+Open **two separate terminals**.
 
-### 🖥️ Terminal 1: Backend Setup & Execution
-Navigate to the backend directory:
+### 🖥️ Terminal 1 – Backend
 
+Navigate to the backend folder:
+
+```bash
 cd app
-(Recommended) Create and activate a Python virtual environment to manage dependencies cleanly:
+```
 
+Create a virtual environment:
+
+```bash
 python -m venv venv
-### On Windows:
-venv\Scripts\activate
-### On macOS/Linux:
-source venv/bin/activate
-1. Install all required dependencies based on the requirements list:
-pip install -r requirements.txt <br>
-2. Start the FastAPI backend server:
-uvicorn main:app --reload <br>
+```
 
-### 🌐 Terminal 2: Frontend Setup & Execution
-1. Open a second split terminal and navigate to the frontend directory:
-cd frontend<br>
-2. Install the required Node packages:
-npm install<br>
-3. Run the Next.js development server:
+Activate the virtual environment:
+
+**Windows**
+
+```bash
+venv\Scripts\activate
+```
+
+**macOS/Linux**
+
+```bash
+source venv/bin/activate
+```
+
+Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Start the FastAPI server:
+
+```bash
+uvicorn main:app --reload
+```
+
+---
+
+### 🌐 Terminal 2 – Frontend
+
+Navigate to the frontend folder:
+
+```bash
+cd frontend
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
 npm run dev
+```
+
+The application will now be running locally.
+
+---
+
+## 📸 Screenshots
+
+*Screenshots will be added here.*
+
+---
+
+## 🚀 Future Scope
+
+* AR Food Preview
+* Voice Ordering
+* Multi-language Support
+* AI-Based Personalized Recommendations
+
+---
+
+## ❤️ Acknowledgements
+
+Developed as part of **VibeAthon 6.0 (VibeCoding Hackathon)** organized by **NxtGenSec**.
+
+A big thank you to the organizers, mentors, and everyone who supported this project.
+
