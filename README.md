@@ -9,7 +9,7 @@ VibeBite is a next-generation Smart Restaurant Management System designed to enh
 # 🌐 Project Links
 
 ### Live Demo
-**c** 
+**https://smart-restaurant-management-system-six.vercel.app/login** 
 
 ---
 
